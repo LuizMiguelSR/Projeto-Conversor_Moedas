@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editValor"
+        android:id="@+id/edit_valor"
         android:text="" />
 
     <TextView
@@ -41,7 +41,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/textDolar"/>
+        android:id="@+id/text_dolar"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -60,12 +60,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/textEuro"/>
+        android:id="@+id/text_euro"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
-        android:id="@+id/buttonCalculate"/>
+        android:id="@+id/button_calculate"/>
 
 </LinearLayout>
