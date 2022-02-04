@@ -66,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
+        android:onClick="teste"
         android:id="@+id/button_calculate"/>
 
 </LinearLayout>
