@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     tools:context=".MainActivity"
     tools:ignore="NamespaceTypo">
 
@@ -67,6 +68,7 @@
         android:layout_height="wrap_content"
         android:text="@string/calcular"
         android:onClick="teste"
-        android:id="@+id/button_calculate"/>
+        android:id="@+id/button_calculate"
+        tools:ignore="OnClick" />
 
 </LinearLayout>
